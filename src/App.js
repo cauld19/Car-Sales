@@ -25,6 +25,8 @@ const App = props => {
     console.log("cicked", item)
   };
 
+  console.log(props.car.features)
+
   return (
     <div className="boxes">
       <div className="box">
